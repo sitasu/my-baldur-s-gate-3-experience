@@ -1,5 +1,5 @@
 .companion, .comp-types {
-  background-color: rgb(40, 40, 40);
+  background-color: rgba(40, 40, 40, 0.75);
   color: white;
   padding: 20px;
   margin-bottom: 20px;
@@ -7,6 +7,9 @@
   
 .header {
   color: gold;
+  background-color: rgb(40, 40, 40, 0.75);
   text-align: center;
   padding: 20px;
+  font-size: 30px;
+  font-weight: 700;
 }
