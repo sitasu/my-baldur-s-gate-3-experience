@@ -1,0 +1,12 @@
+.companion, .comp-types {
+  background-color: rgb(40, 40, 40);
+  color: white;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+  
+.header {
+  color: gold;
+  text-align: center;
+  padding: 20px;
+}

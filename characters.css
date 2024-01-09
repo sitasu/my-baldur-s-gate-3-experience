@@ -1,0 +1,46 @@
+.companions {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(40, 40, 40);
+  margin: 20px;
+}
+
+.comp-info-card {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.lara-card-holder {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  margin: 20px;
+}
+
+.lara-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(40, 40, 40);
+  width: 20%;
+  height: 20%;
+  padding: 20px
+}
+
+.lara-pfp {
+  width: 12%;
+}
+
+.comp-pfp {
+  width: 75%;
+}
+
+.comp-name, .comp-info {
+  color: gold;
+  display: flex;
+  padding-top: 10px;
+}
