@@ -13,11 +13,6 @@ body {
   z-index: -1;
 }
 
-.header {
-  font-size: 30px;
-  font-weight: 700;
-}
-
 .companion,
 .info,
 div {
