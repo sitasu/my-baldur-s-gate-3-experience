@@ -9,10 +9,23 @@
   color: white;
   padding: 20px;
   margin-bottom: 20px;
-  width: 1500px;
+  width: 75%;
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.companion,
+.info,
+div {
+  font-family: quattrocento;
+  font-size: 20px;
+  line-height: 1.5em;
+}
+
+.companion,
+.header {
+  margin: 0 0 2rem 0;
 }
   
 .title-background {
@@ -20,19 +33,19 @@
   flex-direction: column;
   align-items: center;
   background-color: rgb(0, 53, 94);
-  width: 700px;
-  height: 125px;
-  padding-top: 25px;
+  width: 50%;
+  padding-top: 1.5rem;
+  margin: 2rem;
 }
 
 .header {
   color: gold;
   background-color: rgba(40, 40, 40, 0.75);
   text-align: center;
-  padding: 20px;
-  font-size: 30px;
+  padding: 2rem;
+  font-size: 2.5rem;
   font-weight: 700;
-  width: 500px;
+  width: 75%;
   display: flex;
   flex-direction: column;
 }
