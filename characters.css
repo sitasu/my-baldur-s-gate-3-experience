@@ -81,3 +81,23 @@
 .comp-race:hover .race-information {
   opacity: 1;
 }
+
+.comp-class .class-information {
+  position: absolute;
+  background-color: rebeccapurple;
+  border: 2px gold solid;
+  color: white;
+  font-size: 1rem;
+  padding: 1rem;
+  width: 20rem;
+  left: -130px;
+  bottom: 50px;
+  opacity: 0;
+  transition: opacity 0.15s;
+  pointer-events: none;
+  z-index: 10;
+}
+
+.comp-class:hover .class-information {
+  opacity: 1;
+}
