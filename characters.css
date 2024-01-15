@@ -1,6 +1,7 @@
 .companions {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  flex-wrap: wrap;
   margin: 2rem;
 }
 
@@ -10,8 +11,9 @@
   text-align: center;
   align-items: center;
   padding: 2rem 0;
-  margin: 0 1rem;
+  margin: 1rem 1rem;
   background-color: rgba(40, 40, 40, 0.75);
+  width: 180px;
 }
 
 .lara-card-holder {
@@ -55,6 +57,16 @@
 .comp-race, .comp-class {
   padding: 0px 0.2em;
   position: relative;
+}
+
+.class-information {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.class-information img {
+  width: 50%;
 }
 
 .lara-pfp, .comp-pfp, .comp-name:hover, .comp-race:hover, .comp-class:hover {
