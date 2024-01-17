@@ -79,6 +79,7 @@
   position: absolute;
   background-color: rebeccapurple;
   border: 2px gold solid;
+  border-radius: 2rem;
   color: white;
   font-size: 1rem;
   padding: 1rem;
@@ -99,6 +100,7 @@
   position: absolute;
   background-color: rebeccapurple;
   border: 2px gold solid;
+  border-radius: 2rem;
   color: white;
   font-size: 1rem;
   padding: 1rem;
