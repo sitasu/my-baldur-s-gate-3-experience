@@ -83,7 +83,7 @@
   color: white;
   font-size: 1rem;
   padding: 1rem;
-  width: 200px;
+  width: 400px;
   left: -90px;
   bottom: 50px;
   opacity: 0;
@@ -115,6 +115,12 @@
 
 .comp-class:hover .class-information {
   opacity: 1;
+}
+
+.race-information {
+  display: flex;
+  text-align: center;
+  align-items: center;
 }
 
 h2 {
