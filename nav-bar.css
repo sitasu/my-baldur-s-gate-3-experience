@@ -1,0 +1,28 @@
+.nav-bar {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 12rem;
+  background-color: rebeccapurple;
+
+  z-index: 1000;
+}
+
+nav div {
+  color: whitesmoke;
+  margin: 2rem;
+  font-size: 1.5rem;
+  transition: 0.5s;
+}
+
+nav div:hover, :focus {
+  cursor: pointer;
+  text-decoration: underline;
+  color: gold;
+}
+
+nav div:first-child {
+  margin: 1rem;
+  text-align: end;
+}
