@@ -37,10 +37,12 @@
 
 .lara-pfp {
   width: 75%;
+  border: 0.2rem solid gold;
 }
 
 .comp-pfp {
   width: 75%;
+  border: 0.2rem solid gold;
 }
 
 .comp-name, .comp-info {
