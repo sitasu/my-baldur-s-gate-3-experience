@@ -4,7 +4,7 @@
   bottom: 0;
   left: 0;
   width: 12rem;
-  background-color: rebeccapurple;
+  background-color: rgb(47, 23, 71);
 
   z-index: 1000;
 }
@@ -19,7 +19,7 @@ nav div {
 nav div:hover, :focus {
   cursor: pointer;
   text-decoration: underline;
-  color: gold;
+  color: goldenrod;
 }
 
 nav div:first-child {
