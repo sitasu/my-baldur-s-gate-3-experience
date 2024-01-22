@@ -5,6 +5,7 @@
   left: 0;
   width: 12rem;
   background-color: rgb(47, 23, 71);
+  border-right: 0.2rem solid gold;
 
   z-index: 1000;
 }
