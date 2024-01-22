@@ -14,6 +14,7 @@
   margin: 1rem 1rem;
   background-color: rgba(40, 40, 40, 0.75);
   width: 180px;
+  border: 0.1rem solid gold;
 }
 
 .lara-card-holder {
@@ -22,6 +23,7 @@
   text-align: center;
   align-items: center;
   margin: 2rem;
+  margin-left: 10rem;
   padding: 2rem;
   width: 20%;
   background-color: rgb(0, 53, 94);
@@ -32,17 +34,18 @@
   flex-direction: column;
   align-items: center;
   background-color: rgba(40, 40, 40, 0.75);
-  padding: 1rem;
+  padding: 2rem;
+  border: 0.1rem solid gold;
 }
 
 .lara-pfp {
   width: 75%;
-  border: 0.2rem solid gold;
+  border: 0.1rem solid gold;
 }
 
 .comp-pfp {
   width: 75%;
-  border: 0.2rem solid gold;
+  border: 0.1rem solid gold;
 }
 
 .comp-name, .comp-info {
