@@ -80,6 +80,27 @@
   cursor: pointer;
 }
 
+.comp-name .comp-box {
+  position: absolute;
+  background-color: rebeccapurple;
+  border: 2px gold solid;
+  border-radius: 2rem;
+  color: white;
+  font-size: 1rem;
+  padding: 1rem;
+  width: 400px;
+  left: -160px;
+  bottom: 50px;
+  opacity: 0;
+  transition: opacity 0.15s;
+  pointer-events: none;
+  z-index: 10;
+}
+
+.comp-name:hover .comp-box {
+  opacity: 1;
+}
+
 .comp-race .race-box {
   position: absolute;
   background-color: rebeccapurple;
