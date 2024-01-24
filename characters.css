@@ -80,7 +80,7 @@
   cursor: pointer;
 }
 
-.comp-name .comp-box {
+.comp-name .comp-box, .my-box {
   position: absolute;
   background-color: rebeccapurple;
   border: 2px gold solid;
@@ -97,8 +97,12 @@
   z-index: 10;
 }
 
-.comp-name:hover .comp-box {
+.comp-name:hover .comp-box, .comp-name:hover .my-box {
   opacity: 1;
+}
+
+.my-box {
+  left: -200px;
 }
 
 .comp-race .race-box {
